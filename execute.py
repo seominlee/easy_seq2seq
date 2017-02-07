@@ -30,6 +30,18 @@ import tensorflow as tf
 import data_utils
 import seq2seq_model
 
+# add utf8 support
+# python2 and python3 support
+try:
+    reload
+except NameError:
+    # py3k has unicode by default
+    pass
+else:
+    reload(sys).setdefaultencoding('utf-8')
+    
+
+
 try:
     from ConfigParser import SafeConfigParser
 except:
