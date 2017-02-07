@@ -1,7 +1,7 @@
 # A chatbot model based on tensorflow supporting utf8
 
-I just added utf8 support code.
-Almost codes came from suriyadeepan (https://github.com/suriyadeepan/easy_seq2seq).
+I just added utf8 support code. (https://github.com/llSourcell/tensorflow_chatbot).
+Oringinal codes came from suriyadeepan (https://github.com/suriyadeepan/easy_seq2seq).
 
 
 
