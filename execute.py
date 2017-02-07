@@ -30,6 +30,17 @@ import tensorflow as tf
 import data_utils
 import seq2seq_model
 
+# just adding from https://github.com/llSourcell/tensorflow_chatbot
+# python2 and python3 support
+try:
+    reload
+except NameError:
+    # py3k has unicode by default
+    pass
+else:
+    reload(sys).setdefaultencoding('utf-8')
+
+
 try:
     from ConfigParser import SafeConfigParser
 except:
